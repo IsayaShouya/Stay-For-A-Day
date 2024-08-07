@@ -61,7 +61,10 @@
                 		display: flex;
                 		flex-direction: row;
                 		justify-content: space-between;
-                		align-items: center;
+                		height: 30px;
+				width: 70%;
+				border-radius: 25px;
+				color: #545252;
             			}
             		#title{
                 		flex-direction: column;
