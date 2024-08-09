@@ -22,3 +22,23 @@ header img{
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.navigation__link: hover{
+  color: var(--red);
+}
+.navigation__social{
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.navigation__social svg{
+  width: 20px;
+  height: 20px;
+  opacity: 0,6;
+  transition: all 0.5s;
+}
+.navigation__social svg: hover{
+  opacity: 1;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
