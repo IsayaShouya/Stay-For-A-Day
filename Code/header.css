@@ -36,6 +36,13 @@ header img{
   height: 2px; 
   background: var(--red);
   transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+.navigation__link: hover:: after{
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
 }
 .navigation__social{
   margin-left: auto;
