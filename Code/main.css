@@ -5,3 +5,11 @@ main{
   max-width: 1440px;
   flex: 1;
 }
+.main__info{
+  width: 100%;
+  max-width: 500px;
+}
+.main__info p{
+  font-size: 18px;
+  margin: 20px 0 28px;
+}
