@@ -201,6 +201,7 @@
 		            	}
 			a{
                 		color: white;
+				position: fixed;
             			}
             		a:hover{
                 		border: 2px solid #f5252f;
@@ -208,6 +209,7 @@
                 		border-radius: 15px;
                 		transition: 0.3s all;
 				cursor: pointer;
+				position: fixed;
             			}
 			#bgimage{
 				width: 100%;
@@ -221,24 +223,18 @@
 			#imgheader{
 				width: 180px;
 				height: 140px; 
-				object-fit: cover;
-				inset: 0; 
 			}
 			#imglogo{
-				width: 580px;
-				height: 440px; 
+				width: 500px;
+				height: 400px; 
 				object-fit: cover;
 				margin-left: 450px;
 				position: fixed;
 				padding: 20px;
 				inset: 0; 
+				max-width: 510px;
+				max-height: 410px;
 				
-			}
-			footer{
-				background-color: #03fc45;
-				positon: absolute;
-				text-align: center;
-				color: white;
 			}
 			#titulosfad{
 				font-weight: 200;
@@ -250,6 +246,7 @@
 		                max-width: 1440px;
 		                margin: 0 auto;]
 				color: white;
+				background-repeat: no-repeat;
 				background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
             			}
 			label{
@@ -448,7 +445,7 @@
 			
 		</footer>
 		<video loop autoplay muted>
-			. . . <source src="https://isayashouya.github.io/Stay-For-A-Day/Imagens/YouCut_20240730_171536269%20(1)-depositphotos-bgremover.webm" id="bgimage"> 
+			<source src="https://isayashouya.github.io/Stay-For-A-Day/Imagens/YouCut_20240730_171536269%20(1)-depositphotos-bgremover.webm" id="bgimage"> 
 		</video>
 	</body> <!-- Fecha o corpo do site -->
 </html> <!-- Fecha o site-->
