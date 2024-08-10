@@ -1,18 +1,4 @@
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --text: #EDF1F7;
-  --red: #C51212;
-  --blue: #0041C2;
-  --green: #14B02D;
-  --yellow: #ffc12b;
-}
-
 body, button, a {
   color: #EDF1F7;
   font: 400 1rem "Mukta", sans-serif;
@@ -152,9 +138,3 @@ main{
   font-size: 18px;
   margin: 20px 0 28px;
 }
-
-
-
-  
-
-
