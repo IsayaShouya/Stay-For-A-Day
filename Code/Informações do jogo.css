@@ -65,6 +65,9 @@
       	a{
         	color: white;                
       	}
+	#AAA{
+		color: white;
+	}
       	a:hover{
 	        border: 2px solid #03fc45;
 	        padding: 10px;                  
