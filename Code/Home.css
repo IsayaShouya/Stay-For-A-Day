@@ -7,7 +7,14 @@ body, button, a {
 a {
   text-decoration: none;
 }
-
+#cadastrar{
+  color: #C51212;
+}
+#cadastrar:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
 button:hover {
   cursor: pointer;
 }
