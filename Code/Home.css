@@ -9,6 +9,7 @@ a {
 }
 #cadastrar{
   color: #C51212;
+  margin-left: 300px;
 }
 #cadastrar:hover {
   cursor: pointer;
